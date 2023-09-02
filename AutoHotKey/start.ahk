@@ -7,16 +7,16 @@
 SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 ; alt + hjkl 
-!h::Send, {Left}
-!j::Send, {Down}
-!k::Send, {Up}
-!l::Send, {Right}
+;!h::Send, {Left}
+;!j::Send, {Down}
+;!k::Send, {Up}
+;!l::Send, {Right}
 
 ; alt + asdf
-!A::Send, {Home}
-!S::Send, {PgDn}
-!D::Send, {PgUp}
-!F::Send, {End}
+;!A::Send, {Home}
+;!S::Send, {PgDn}
+;!D::Send, {PgUp}
+;!F::Send, {End}
 
 ; esc 時のIME Off
 ~Esc::IME_SET(0)
