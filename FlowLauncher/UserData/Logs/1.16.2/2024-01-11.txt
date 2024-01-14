@@ -1,0 +1,94 @@
+22:23:12.6164+09:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+22:23:12.6164+09:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.16.2
+OS Version: 22631.3007
+IntPtr Length: 8
+x64: True
+22:23:12.6349+09:00 - INFO  - BinaryStorage.TryLoad - Cache file not exist, load default data
+22:23:12.6466+09:00 - INFO  - ImageLoader.Initialize - Preload images cost <3ms>
+22:23:12.6466+09:00 - INFO  - ImageLoader.Initialize - Number of preload images is <2>, Images Number: 2, Unique Items 2
+22:23:12.7866+09:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <1ms>
+22:23:12.7866+09:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <1ms>
+22:23:12.7866+09:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <1ms>
+22:23:12.7866+09:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <10ms>
+22:23:12.7866+09:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <3ms>
+22:23:12.7866+09:00 - INFO  - BinaryStorage.TryLoad - Cache file not exist, load default data
+22:23:12.7866+09:00 - INFO  - BinaryStorage.TryLoad - Cache file not exist, load default data
+22:23:12.7866+09:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <1ms>
+22:23:12.7866+09:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <0>
+22:23:12.7866+09:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <0>
+22:23:12.7866+09:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <8ms>
+22:23:12.7866+09:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <5ms>
+22:23:12.7866+09:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:23:12.7866+09:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <12ms>
+22:23:12.7866+09:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <17ms>
+22:23:12.8070+09:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <22ms>
+22:23:12.8179+09:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:23:12.8179+09:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:23:12.8179+09:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+22:23:12.8636+09:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <81ms>
+22:23:12.8852+09:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:23:12.8852+09:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\msrdc.exe
+Possible resolution: Not yet known
+22:23:12.8852+09:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:23:12.9144+09:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:23:12.9144+09:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+InnerException number: 1
+Exception message: C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\WindowsApps\MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe\wslg.exe
+Possible resolution: Not yet known
+22:23:12.9144+09:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:23:13.3709+09:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 140 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+22:23:13.3709+09:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <589ms>
+22:23:13.3915+09:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:23:13.3915+09:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player Legacy.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:23:13.3915+09:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:23:13.4231+09:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+22:23:13.4231+09:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+22:23:13.4231+09:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+22:23:13.4347+09:00 - INFO  - Flow.Launcher.Plugin.Program.Main - UWPProgram index cost <643ms>
+22:23:13.5263+09:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: 
+Node Path: 
+22:23:13.7034+09:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+22:23:13.7034+09:00 - INFO  - App.OnStartup - Startup cost <1139ms>
+22:23:13.7983+09:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Win32Program index cost <1007ms>

@@ -1,0 +1,72 @@
+{
+  "Items": [
+    {
+      "Query": "teams",
+      "ExecutedDateTime": "2024-01-12T19:52:18.753023+09:00"
+    },
+    {
+      "Query": "out",
+      "ExecutedDateTime": "2024-01-12T19:59:15.84755+09:00"
+    },
+    {
+      "Query": "wez",
+      "ExecutedDateTime": "2024-01-12T20:26:21.0490154+09:00"
+    },
+    {
+      "Query": "sla",
+      "ExecutedDateTime": "2024-01-12T20:29:02.5544895+09:00"
+    },
+    {
+      "Query": "log",
+      "ExecutedDateTime": "2024-01-12T21:54:24.0400738+09:00"
+    },
+    {
+      "Query": "task",
+      "ExecutedDateTime": "2024-01-13T12:30:42.6610911+09:00"
+    },
+    {
+      "Query": "b toggl",
+      "ExecutedDateTime": "2024-01-13T12:40:28.596761+09:00"
+    },
+    {
+      "Query": "co2",
+      "ExecutedDateTime": "2024-01-13T12:50:29.6893435+09:00"
+    },
+    {
+      "Query": "doc:",
+      "ExecutedDateTime": "2024-01-13T12:52:17.0989289+09:00"
+    },
+    {
+      "Query": "u sl",
+      "ExecutedDateTime": "2024-01-13T13:18:01.6839293+09:00"
+    },
+    {
+      "Query": "b pri",
+      "ExecutedDateTime": "2024-01-13T13:18:32.1903035+09:00"
+    },
+    {
+      "Query": "u sle",
+      "ExecutedDateTime": "2024-01-13T14:18:17.6832264+09:00"
+    },
+    {
+      "Query": "stea",
+      "ExecutedDateTime": "2024-01-13T14:20:11.1838864+09:00"
+    },
+    {
+      "Query": "g \u30B3\u30F3\u30C8\u30ED\u30FC\u30E9 \u306D\u3070\u306D\u3070",
+      "ExecutedDateTime": "2024-01-13T14:28:07.9126499+09:00"
+    },
+    {
+      "Query": "teams",
+      "ExecutedDateTime": "2024-01-14T10:42:28.459437+09:00"
+    },
+    {
+      "Query": "b tw",
+      "ExecutedDateTime": "2024-01-14T10:50:29.2044466+09:00"
+    },
+    {
+      "Query": "u shu",
+      "ExecutedDateTime": "2024-01-14T10:57:14.1617858+09:00"
+    }
+  ]
+}
